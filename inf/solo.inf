@@ -1,0 +1,32 @@
+ 25
+ 5
+ ../data/som.o4
+ ../data/solo_input_Fh.csv
+ training
+ 1234
+ 0
+../data/eigenValue.out
+../data/eigenVector.out
+../data/accumErr.out
+../data/accumRR.out
+../data/trainProcess.out
+../data/freqTable.out
+../data/hidOutputWt.out
+../data/errorMap.out
+../data/finResult.out
+../data/trainWin.out
+../data/trainWout.out
+
+Information
+1) number of sofm nodes
+2) number of data used in parameter estimation
+3) file name of hidden weights, output by sofm
+4) file name of input data
+   - same driver variables input to sofm in the same order as input to sofm
+   - 1 target variable in the last column
+   - comma separated values (no comma at the end of lines)
+   - all fields must be numbers
+5) "training" or "simulation"
+   - "training" in this case
+6) seed for random number generator
+7) calculate hidden-output weights when data number > threshold value
